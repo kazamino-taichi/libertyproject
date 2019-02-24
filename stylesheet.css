@@ -1,0 +1,422 @@
+html{
+  color: #F7C51E;
+  font-family: STSong;
+}
+
+a{
+  text-decoration: none;
+}
+
+body{
+  background-color: #000000;
+}
+
+
+#header{
+  background-image: url(ANAMIcounter.jpg);
+  background-size: cover;
+  display: block;
+  margin: 0 auto;
+  width: 1000px;
+  height: 645px;
+}
+
+.border{
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 70%;
+}
+
+.borderb{
+  border-top: 1px solid #F7C51E;
+}
+
+
+.reservation{
+  border: 1px solid #F7C51E;
+  color: #F7C51E;
+  float: right;
+  display: block;
+  width: 169px;
+  height: 47px;
+  margin: 0 auto;
+}
+.reservation a{
+  color: #F7C51E;
+  display: block;
+}
+
+
+img{
+  width: 420px;
+  height: 343px;
+}
+
+h1{
+  font-size: 72px;
+  color: #F7C51E;
+  font-family: STSong;
+  text-align: center;
+  /* padding-top: 100px; */
+}
+
+.border h1 {
+  padding: 30px 0;
+
+}
+.shop{
+  font-size: 35px;
+  background: none;
+  position: relative;
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
+  padding: 70px 0;
+}
+
+.shop::before {
+    border-top: 1px solid #F7C51E;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+}
+
+.shop span {
+    background-color: #000000;
+    display: inline-block;
+    padding: 0 1em;
+    position: relative;
+}
+
+
+
+.charity {
+    font-size: 35px;
+    background: none;
+    position: relative;
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+
+.charity::before {
+    border-top: 1px solid #F7C51E;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+}
+
+.charity span {
+    background-color: #000000;
+    display: inline-block;
+    padding: 0 1em;
+    position: relative;
+}
+
+h3{
+  padding: 20px  0;
+  font-size: 30px;
+}
+.p{
+  color: #ffffff;
+  margin-bottom: 48px;
+}
+
+#container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.btn1{
+  border: 1px solid gray;
+  border-radius: 5px;
+  background-color: gray;
+  padding: 16px;
+  color: white;
+  width: 150px;
+  height: 25px;
+  font-size: 12px;
+}
+
+.btn1:hover{
+  color: #F7C51E;
+}
+
+@media screen and (max-width: 480px){
+
+  #header{
+    background-image: url(ANAMIcounter.jpg);
+    background-size: cover;
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    height: 80%;
+  }
+  h1{
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .shop{
+    font-size: 15px;
+    position: relative;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+    padding: 50px 0;
+  }
+
+  .shop::before {
+      border-top: 1px solid #F7C51E;
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 100%;
+  }
+
+  .shop span {
+      background-color: #000000;
+      display: inline-block;
+      padding: 0 1em;
+      position: relative;
+  }
+
+
+
+  .charity {
+      font-size: 15px;
+      background: none;
+      position: relative;
+      text-align: center;
+      width: 150px;
+      margin: 0 auto;
+      padding-top: 60px;
+      padding-bottom: 60px;
+
+  }
+
+  .charity::before {
+      border-top: 1px solid #F7C51E;
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 100%;
+  }
+
+  .charity span {
+      background-color: #000000;
+      display: inline-block;
+      padding: 0 1em;
+      position: relative;
+  }
+
+  h3{
+    padding: 20px  0;
+    font-size: 15px;
+  }
+  .p{
+    color: #ffffff;
+    margin-bottom: 48px;
+    font-size: 10px;
+  }
+
+  #container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+  }
+  img{
+    width: 200px;
+    height: 150px;
+  }
+
+  .borderb{
+    padding-bottom: 1em;
+    padding-top: 1em;
+    border-bottom: 1px solid #F7C51E;
+  }
+
+  .btn1{
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: gray;
+    padding: 15px;
+    color: white;
+    width: 70px;
+    height: 10px;
+    font-size: 9px;
+  }
+
+  .btn1:hover{
+    color: #F7C51E;
+  }
+  .ANAMIKA{
+    text-align: center;
+  }
+
+  #footer{
+    display: flex;
+    align-items: left;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: #ffffff;
+    font-size: 10px;
+    padding-top: 10px;
+  }
+
+  .copyright{
+    margin-left: 100px;
+  }
+
+  .footer1{
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .footer1img{
+    width: 70px;
+    height: 40px;
+  }
+
+  .footer1info{
+    padding-left: 10px;
+    text-align: left;
+  }
+
+  .footer1info p{
+    padding-top: 10px;
+    font-size: 10px;
+  }
+
+  .footer2{
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    text-align: center;
+    padding-right: 80px;
+  }
+
+  .footer2img{
+    width: 30px;
+    height: 40px;
+    padding-right: 20px;
+  }
+
+  .footer2info{
+    text-align: left;
+  }
+
+  .footer2info p{
+    padding-top: 10px;
+    font-size: 10px;
+  }
+
+  .copyright{
+    font-size: 12px;
+    padding-top: 20px;
+    padding-left: 0px;
+    text-align: center;
+  }
+  }
+
+
+
+}
+
+
+
+.btn1{
+  border: 1px solid gray;
+  border-radius: 5px;
+  background-color: gray;
+  padding: 16px;
+  color: white;
+  width: 150px;
+  height: 25px;
+  font-size: 12px;
+}
+
+.btn1:hover{
+  color: #F7C51E;
+}
+.ANAMIKA{
+  text-align: center;
+}
+
+#footer{
+  display: flex;
+  align-items: left;
+  justify-content: space-around;
+  color: #ffffff;
+  font-size: 12px;
+  padding-top: 100px;
+}
+
+.copyright{
+  margin-left: 100px;
+}
+
+.footer1{
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer1img{
+  width: 124px;
+  height: 100px;
+}
+
+.footer1info{
+  padding-left: 50px;
+  text-align: left;
+}
+
+.footer1info p{
+  padding-top: 10px;
+}
+
+.footer2{
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer2img{
+  width: 124px;
+  height: 100px;
+  padding-right: 50px;
+}
+
+.footer2info{
+  text-align: left;
+}
+
+.footer2info p{
+  padding-top: 10px;
+}
+
+.copyright{
+  padding-top: 50px;
+  padding-left: 70px;
+}
+}
