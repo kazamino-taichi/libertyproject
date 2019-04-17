@@ -14,6 +14,10 @@ body{
   background-color: #000000;
 }
 
+p{
+  font-family: none;
+}
+
 .nav{
   background-color: rgba(0,0,0,0.5);
   width: 100%;
@@ -51,7 +55,7 @@ body{
 }
 
 .nav a:hover{
-  color: blue;
+  color: #fff;
 
 }
 .header-container{
@@ -83,8 +87,12 @@ body{
 .reservation a{
   color: #F7C51E;
 }
+
+.reservation a:hover{
+  color: white;
+}
 #header{
-  background-image: url(img/ANAMIcounter.jpg);
+  background-image: url(../img/ANAMIcounter1.jpg);
   background-size: cover;
   display: block;
   margin: 0 auto;
@@ -189,6 +197,7 @@ padding-top: 100px;
 }
 
 dt{
+  font-family: none;
   width: 380px;
   float: left;
   text-align: left;
@@ -198,6 +207,7 @@ dt{
 }
 
 dd{
+  font-family: none;
   width: 60px;
   float: left;
   font-size: 14px;
@@ -393,6 +403,9 @@ dd{
   height: 40px;
   padding-right: 50px;
 }
+.footname{
+  font-size: 20px;
+}
 
 .tabelog{
   width: 40px;
@@ -406,18 +419,40 @@ dd{
 
 }
 
-@media screen and (max-width: 480px){
-  p{
-    font-size: 8px;
+.copyright p{
+  font-family: STSong;
+}
+
+  @media screen and (max-width: 480px){
+    html{
+    color: #F7C51E;
+    font-family: STSong;
   }
 
+  a{
+    text-decoration: none;
+  }
+
+  body{
+    background-color: #000000;
+  }
+
+  p{
+    font-size: 7px;
+    font-family: none;
+  }
+
+  .font{
+    font-family: none;
+  }
   .nav{
     background-color: rgba(0,0,0,0.5);
     width: 100%;
     height: 40px;
   }
+
   .nav p{
-    font-size: 5px;
+    font-size: 10px;
   }
 
   .nav ul{
@@ -425,10 +460,12 @@ dd{
   }
 
   .nav ul li{
-    font-size: 10px;
+
+    font-size: 4px;
     float: left;
-    margin: 10px 50px;
-    padding-left: 60px;
+    margin: 10px 25px;
+    padding-left: 0px;
+
 
   }
 
@@ -438,9 +475,13 @@ dd{
   }
 
   .nav a:hover{
-    color: blue;
+    color: #fff;
 
   }
+
+
+
+
   .header-container{
     background-color: rgba(0,0,0,0.5);
     display: flex;
@@ -452,7 +493,7 @@ dd{
   }
 
   .icon{
-    padding-left: 0px;
+    padding-left: 5px;
   }
   .icon img{
     display: block;
@@ -468,10 +509,11 @@ dd{
     border: 1px solid #F7C51E;
     color: #F7C51E;
     /* display: inline-block; */
-    width: 150px;
+    width: 120px;
     height: 40px;
     /* margin: 0 auto; */
-    margin-right: 80px;
+    float: right;
+    margin-right: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -481,17 +523,15 @@ dd{
     color: #F7C51E;
   }
 
-
-
   .reservation a:hover{
     color: #fff;
   }
-  #about{
-    background-image: url(img/ANAMcounter.png);
+  #header{
+    background-image: url(../img/ANAMIcounter1.jpg);
     background-size: cover;
     display: block;
     margin: 0 auto;
-    width: 90%;
+    width: 100%;
     height: 300px;
     position: relative;
   }
@@ -500,7 +540,7 @@ dd{
     background-color: rgba(0,0,0,0.5);
     position: absolute;
     display: block;
-    width: 50%;
+    width: 60%;
     height: 300px;
   }
 
@@ -515,26 +555,27 @@ dd{
   }
 
   .shopabout h1{
-    font-size: 12px;
-    padding-bottom: 30px;
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-top: 40px;
 
   }
 
   .shopabout p{
-    padding-bottom: 10px;
+    padding-bottom: 15px;
   }
 
 
 
 
   main{
-    background-color: #894276;
+    background-color: #909090;
     display: block;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
   }
   #menu{
-    background-color: #894276;
+    background-color: #909090;
     padding-top: 50px;
 
   }
@@ -544,20 +585,19 @@ dd{
       background: none;
       position: relative;
       text-align: center;
-      width: 150px;
+      width: 160px;
       margin: 0 auto;
-      padding-top: 30px;
-      padding-bottom: 30px;
+      padding-top: 10px;
+      padding-bottom: 10px;
   }
 
   .menuname p{
     padding-bottom: 0px;
-    font-size: 8px;
   }
 
   .subtitle{
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
 
   .menuname::before {
@@ -570,7 +610,7 @@ dd{
   }
 
   .menuname span {
-      background-color: #894276;
+      background-color: #909090;
       display: inline-block;
       padding: 0 1em;
       position: relative;
@@ -579,82 +619,115 @@ dd{
   .container{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    text-align: center;
+    justify-content: center;
+    flex-direction: column;
   }
 
   .menuTxt{
-    padding-bottom: 0px;
+    width: 280px;
+    padding-bottom: 20px;
   }
   .menuTxt h2{
-    font-size: 16px;
-    padding-bottom: 30px;
-    padding-right: 80px;
+    font-size: 15px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+    text-align: center;
+
   }
 
   dt{
+    font-family: none;
     width: 150px;
-    float: left;
+
     text-align: left;
     margin-left: 30px;
-    font-size: 5px;
+    font-size: 7px;
     padding-bottom: 10px;
+    padding-left: 0px;
   }
 
   dd{
-    width: 30px;
+    font-family: none;
+    width: 60px;
     float: left;
-    font-size: 5px;
+    font-size: 7px;
     padding-bottom: 10px;
+    padding-right:　10px;
+    padding-left: 20px;
 
   }
 
   .foodimg{
-    padding-bottom: 180px;
-    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-right: 0px;
     padding-top: 50px;
   }
 
   .foodimg img{
     display: block;
-    width: 200px;
-    height: 100px;
+    width: 100%;
+    height: 200px;
   }
 
   .container2{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    text-align: center;
-    padding-bottom: 0px;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 50px;
   }
 
   .drinkimg img{
     display: block;
-    width: 200px;
-    height: 100px;
+    width: 100%;
+    height: 200px;
   }
 
   .drinkimg{
-    padding-bottom: 350px;
-    padding-left: 30px;
+    width: 100%;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-left: 0px;
   }
   .menuTxt2{
-    padding-top: 100px;
-    padding-bottom: 100px;
+    width: 400px;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 
   .menuTxt2 h2{
-    font-size: 16px;
+    font-size: 15px;
     padding-bottom: 30px;
+    padding-right: 0px;
+  }
+
+  .menuTxt2 dt{
+    font-family: none;
+    width: 280px;
+    text-align: left;
+    margin-left: 50px;
+    font-size: 7px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+  }
+
+  .menuTxt2 dd{
+    font-family: none;
+    width: 50px;
+    float: left;
+    font-size: 7px;
+    padding-bottom: 10px;
+    padding-right: 0px;
+    padding-left: 0px;
+
   }
 
   .interiorname {
-      font-size: 35px;
+      font-size: 20px;
       background: none;
       position: relative;
       text-align: center;
-      width: 300px;
+      width: 170px;
       margin: 0 auto;
       padding-top: 30px;
       padding-bottom: 30px;
@@ -670,20 +743,21 @@ dd{
   }
 
   .interiorname span {
-      background-color: #894276;
+      background-color: #909090;
       display: inline-block;
       padding: 0 1em;
       position: relative;
   }
 
   #interior{
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 0px;
   }
 
   #interior img{
     display: block;
     width: 100%;
-    height: 400px;
+    height: 200px;
     margin: 0 auto;
 
   }
@@ -692,20 +766,22 @@ dd{
       margin: 0 auto;
       width: 100%;
   }
-
+  #information{
+    padding-top: 50px;
+  }
 
 
   /*slick setting*/
 
   .informationname {
-      font-size: 35px;
+      font-size: 20px;
       background: none;
       position: relative;
       text-align: center;
-      width: 400px;
+      width: 200px;
       margin: 0 auto;
-      padding-top: 40px;
-      padding-bottom: 40px;
+      padding-top: 30px;
+      padding-bottom: 30px;
   }
 
   .informationname::before {
@@ -718,40 +794,53 @@ dd{
   }
 
   .informationname span {
-      background-color: #894276;
+      background-color: #909090;
       display: inline-block;
       padding: 0 1em;
       position: relative;
   }
 
   .facebook{
-    padding-left: 50px;
-    padding-bottom: 160px;
+    padding-left: 0px;
+    padding-bottom: 100px;
+  }
+
+  .facebook iframe{
+    height: 400px;
   }
 
   .map{
-    padding-bottom: 185px;
-    padding-right: 50px;
+    padding-bottom:50px;
+    padding-right: 0px;
+  }
+
+  .map iframe{
+    width: 400px;
+    height: 400px;
   }
 
   .map p{
     color: #ffffff;
     text-align: left;
-    padding-left: 50px;
+    padding-left: 0px;
     padding-top: 10px;
     padding-bottom: 5px;
   }
 
   .subinfo{
-    margin-left: 80px;
+    margin-left: 50px;
     padding-bottom: 3px;
 
   }
 
-  .container2{
+
+
+  .container3{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    flex-direction: column;
     align-items: center;
+    padding-bottom: 0px;
   }
 
   .ANAMfi{
@@ -763,11 +852,12 @@ dd{
   .footer1img{
     width: 124px;
     height: 100px;
-    padding-left: 200px;
+    padding-left: 0px;
     padding-top: 20px;
   }
 
   .footer1info p{
+    width: 150px;
     color: #ffffff;
     font-size: 11px;
     padding-left: 30px;
@@ -776,27 +866,35 @@ dd{
   }
 
   .footname{
-    font-size: 20px;
+    padding-top: 25px;
+    font-size: 25px;
+    font-family: STSong;
+  }
+
+  .link{
+
   }
 
   .facebook2{
     width: 40px;
     height: 40px;
-    padding-right: 50px;
+    padding-left: 0px;
+    padding-top: 30px;
   }
 
   .tabelog{
     width: 40px;
     height: 40px;
-    padding-right: 210px;
+    padding-right: 0px;
   }
 
   .copyright{
-    padding-left: 200px;
+    padding-left: 0px;
     padding-top: 100px;
   }
 
+  .copyright p{
+    font-family: STSong;
+  }
 
-
-
-}
+  }
