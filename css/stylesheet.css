@@ -16,6 +16,10 @@ body{
   font-family: none;
 }
 
+header{
+  width:100%;
+}
+
 
 #header{
   background-image: url(../img/ANAMIcounter.jpg);

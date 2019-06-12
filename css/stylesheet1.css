@@ -629,20 +629,19 @@ main{
 .menuTxt h2{
   font-size: 15px;
   padding-bottom: 40px;
-  padding-left: 50px;
+  padding-left: 60px;
   text-align: center;
 
 }
 
 dt{
   font-family: none;
-  width: 100px;
-
+  width: 200px;
   text-align: left;
   margin-left: 30px;
   font-size: 7px;
   padding-bottom: 10px;
-  padding-left: 0px;
+  padding-left: 10px;
 }
 
 dd{
@@ -704,10 +703,10 @@ dd{
   width: 100px;
 
   text-align: left;
-  margin-left: 30px;
+  margin-left: 20px;
   font-size: 7px;
   padding-bottom: 10px;
-  padding-left: 0px;
+  padding-left: 10px;
 }
 
 .menuTxt2 dd{
@@ -811,7 +810,7 @@ dd{
 }
 
 .map iframe{
-  width: 400px;
+  width: 100%;
   height: 400px;
 }
 
