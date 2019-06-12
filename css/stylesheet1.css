@@ -52,6 +52,10 @@ p{
 
 }
 
+header{
+  width: 100%;
+}
+
 
 
 
@@ -63,6 +67,7 @@ p{
   text-align: center;
   position: fixed;
   z-index: 10;
+  width: 100%;
 }
 
 .icon{
