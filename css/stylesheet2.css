@@ -55,10 +55,10 @@ header{
 
 .nav ul li{
 
-  font-size: 4px;
+  font-size: 16px;
   float: left;
-  margin: 10px 10px;
-  padding-left: 0px;
+  margin: 10px 80px;
+  padding-left: 70px;
 
 
 }
@@ -476,7 +476,7 @@ dd{
 
     font-size: 4px;
     float: left;
-    margin: 10px 25px;
+    margin: 10px 10px;
     padding-left: 0px;
 
 
@@ -522,11 +522,11 @@ dd{
     border: 1px solid #F7C51E;
     color: #F7C51E;
     /* display: inline-block; */
-    width: 120px;
+    width: 140px;
     height: 40px;
     /* margin: 0 auto; */
     float: right;
-    margin-right: 0px;
+    margin-right: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -637,8 +637,9 @@ dd{
   }
 
   .menuTxt{
-    width: 280px;
+    width: 400px;
     padding-bottom: 20px;
+    padding-left: 10px;
   }
   .menuTxt h2{
     font-size: 15px;
@@ -653,7 +654,7 @@ dd{
     width: 150px;
 
     text-align: left;
-    margin-left: 30px;
+    margin-left: 40px;
     font-size: 7px;
     padding-bottom: 10px;
     padding-left: 0px;
@@ -661,8 +662,8 @@ dd{
 
   dd{
     font-family: none;
-    width: 60px;
-    float: left;
+    width: 140px;
+    float: right;
     font-size: 7px;
     padding-bottom: 10px;
     padding-right:　10px;
